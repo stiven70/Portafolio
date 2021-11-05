@@ -10,3 +10,6 @@
   block-size: 80px;
   border-bottom: 1px solid rgb(61, 61, 61, 0.5);
 }
+.header a:hover {
+  color: var(--purple);
+}
