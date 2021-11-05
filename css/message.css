@@ -1,0 +1,27 @@
+.message {
+  padding-block-start: 50px;
+  padding-block-end: 50px;
+}
+.message-comment {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 24px;
+  border: 2px solid var(--purple);
+  z-index: -10;
+}
+.message-comment p {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+}
+.message-comment span {
+  text-transform: uppercase;
+  font: var(--caption);
+}

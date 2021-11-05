@@ -1,0 +1,37 @@
+@import "./button.css";
+@import "./button-icon.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./testimony.css";
+@import "./social.css";
+@import "./footer.css";
+@import "./form.css";
+@import "./title.css";
+@import "./message.css";
+
+:root {
+  --fontBase: "Poppins", sans-serif;
+  --headLine1: bold 95px /153.71px var(--fontBase);
+  --headLine2: bold 59px /95px var(--fontBase);
+  --headLine3: bold 48px /77px var(--fontBase);
+  --headLine4: bold 34px /55px var(--fontBase);
+  --headLine5: bold 24px /38px var(--fontBase);
+  --body1: 16px /25px var(--fontBase);
+  --body2: 14px /22px var(--fontBase);
+  --button: bold 14px /22px var(--fontBase);
+  --caption: 12px /19px var(--fontBase);
+  --gradient: linear-gradient(350deg, #f8ffff 0, #b4e2ff 50%, #6fb3dc 100%);
+  --purple: #310a90;
+  --green: #42e2b8;
+  --white: white;
+}
+
+body {
+  background: var(--gradient);
+  min-block-size: 100vh;
+  font: var(--body1);
+  color: var(--purple);
+  margin: 0;
+}
