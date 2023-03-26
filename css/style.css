@@ -1,0 +1,82 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones
+en las secciones señaladas */
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fondo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (max-width: 425px) {
+body {
+    background: var(--cor-de-fondo);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header_imgLogo {
+    width: 200px;
+}
+
+.header .header_menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.header_menu li {
+    list-style: none;
+    margin-right: 0.7rem;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: column;
+}
+
+.presentacion .presentacion_bloque1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.presentacion .presentacion_img {
+    width: 200px;
+}
+
+.presentacion .presentacion_contacto {
+    font-weight: bold;
+}
+
+}
