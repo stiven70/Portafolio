@@ -6,6 +6,7 @@ en las secciones señaladas */
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fondo: #F5F5F5;
    --cor-de-link: #000;
+   --cor-de-fondo2: #EAF2FD;
 }
 
 
@@ -34,19 +35,17 @@ Utiliza las referencias de los breakpoints @media abajo */
 @media (max-width: 425px) {
 body {
     font-family: 'Roboto', sans-serif;
-    background: var(--cor-de-fondo);
 }
 
-.container {
-    margin-left: 1.7rem;
-    margin-right: 1.7rem;
-}
 
 .header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background: var(--cor-de-fondo);
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
 }
 
 .header .header_imgLogo {
@@ -69,6 +68,9 @@ body {
 .presentacion {
     display: flex;
     flex-direction: column;
+    background: var(--cor-de-fondo);
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
 }
 
 .presentacion .presentacion_bloque1 {
@@ -101,13 +103,13 @@ body {
 .presentacion .presentacion_menu {
     display: flex;
     justify-content: space-between;
-    ;
 }
 
 .presentacion_menu li {
     list-style: none;
     margin-right: 0.5rem;
     font-weight: bold;
+    margin-bottom: 1rem;
 }
 
 .presentacion_menu li a{
@@ -124,4 +126,25 @@ body {
     background-repeat: no-repeat;
 }
 
+.sobreMi {
+    background: var(--cor-de-fondo2);
+    padding-top: 2rem;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+}
+
+.sobreMi .sobreMi_titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.sobreMi .sobreMi_descripcion {
+    line-height: 1.5rem;
+}
+
+.sobreMi .sobreMi_firma {
+    margin-top: 1rem;
+    width: 150px;
+}
 }
