@@ -143,8 +143,14 @@ body {
     line-height: 1.5rem;
 }
 
+.sobreMi .sobreMi_container_firma{
+    display: flex;
+    justify-content: right;
+}
+
 .sobreMi .sobreMi_firma {
     margin-top: 1rem;
     width: 150px;
+    justify-content: right;
 }
 }
